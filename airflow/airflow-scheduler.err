@@ -1,0 +1,9 @@
+[2024-05-16 12:06:01 +0000] [7220] [INFO] Starting gunicorn 22.0.0
+[2024-05-16 12:06:01 +0000] [7220] [INFO] Listening at: http://[::]:8793 (7220)
+[2024-05-16 12:06:01 +0000] [7220] [INFO] Using worker: sync
+[2024-05-16 12:06:01 +0000] [7221] [INFO] Booting worker with pid: 7221
+[2024-05-16 12:06:01 +0000] [7234] [INFO] Booting worker with pid: 7234
+[2024-05-16 12:45:36 +0000] [7220] [INFO] Handling signal: term
+[2024-05-16 12:45:36 +0000] [7221] [INFO] Worker exiting (pid: 7221)
+[2024-05-16 12:45:36 +0000] [7234] [INFO] Worker exiting (pid: 7234)
+[2024-05-16 12:45:36 +0000] [7220] [INFO] Shutting down: Master

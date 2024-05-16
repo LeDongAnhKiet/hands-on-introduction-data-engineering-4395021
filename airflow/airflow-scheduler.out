@@ -1,0 +1,74 @@
+[[34m2024-05-16T12:06:01.658+0000[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+[[34m2024-05-16T12:06:01.659+0000[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+[[34m2024-05-16T12:06:01.750+0000[0m] {[34mscheduler_job_runner.py:[0m796} INFO[0m - Starting the scheduler[0m
+[[34m2024-05-16T12:06:01.751+0000[0m] {[34mscheduler_job_runner.py:[0m803} INFO[0m - Processing each file at most -1 times[0m
+[[34m2024-05-16T12:06:01.768+0000[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 7235[0m
+[[34m2024-05-16T12:06:01.770+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-05-16T12:06:01.795+0000[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-05-16T12:06:01.834+0000] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-05-16T12:06:10.034+0000[0m] {[34mserve_logs.py:[0m85} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7,ja-JP;q=0.6,ja;q=0.5,es;q=0.4
+Cache-Control: max-age=0
+Referer: https://supreme-invention-qgvj4pgw446hwp6.github.dev/
+X-Request-Id: d0d31aa0c48781cbf17403fcf7e8aaa7
+X-Real-Ip: 10.240.5.141
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: supreme-invention-qgvj4pgw446hwp6-8793.app.github.dev
+X-Forwarded-For: 10.240.5.141
+Proxy-Connection: Keep-Alive
+
+.[0m
+[[34m2024-05-16T12:06:10.337+0000[0m] {[34mserve_logs.py:[0m85} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7,ja-JP;q=0.6,ja;q=0.5,es;q=0.4
+Referer: https://supreme-invention-qgvj4pgw446hwp6-8793.app.github.dev/
+X-Request-Id: 0ddfc36b1b68a74fe172d28571d40507
+X-Real-Ip: 10.240.5.141
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: supreme-invention-qgvj4pgw446hwp6-8793.app.github.dev
+X-Forwarded-For: 10.240.5.141
+Proxy-Connection: Keep-Alive
+
+.[0m
+[[34m2024-05-16T12:11:01.956+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-05-16T12:16:02.003+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-05-16T12:21:02.138+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-05-16T12:26:02.276+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-05-16T12:31:02.444+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-05-16T12:36:02.584+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-05-16T12:41:02.720+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-05-16T12:45:35.336+0000[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2024-05-16T12:45:36.340+0000[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 7235. PIDs of all processes in the group: [7235][0m
+[[34m2024-05-16T12:45:36.341+0000[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 7235[0m
+[[34m2024-05-16T12:45:36.562+0000[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=7235, status='terminated', exitcode=0, started='12:06:01') (7235) terminated with exit code 0[0m
+[[34m2024-05-16T12:45:36.564+0000[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 7235. PIDs of all processes in the group: [][0m
+[[34m2024-05-16T12:45:36.565+0000[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 7235[0m
+[[34m2024-05-16T12:45:36.565+0000[0m] {[34mprocess_utils.py:[0m101} INFO[0m - Sending the signal Signals.SIGTERM to process 7235 as process group is missing.[0m
+[[34m2024-05-16T12:45:36.566+0000[0m] {[34mscheduler_job_runner.py:[0m872} INFO[0m - Exited execute loop[0m
