@@ -69,3 +69,16 @@ echo "" > $AIRFLOW_HOME/airflow-scheduler.pid
 
 Go to airflow.cfg and change a similar line to `load_examples = False`
 
+## 4. Build a 1 Task DAG
+
+### Check where DAGs suppose to be
+`cat airflow/airflow.cfg | grep "dags_folder"`
+
+Create a 1-task dag in airflow/dags/<your file>.py
+
+### Ignore unnecessary warning from DAG task to diagnostic the correct 
+
+`python -W ignore airflow/dags/<your file>.py`
+
+Press the ▶️ button of the the DAG to run it
+
